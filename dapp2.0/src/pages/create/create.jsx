@@ -87,6 +87,7 @@ export default function Create() {
                             {formValues.map((element, index) => {
                                 return (
                                     <div class="contestant-item">
+                                        <h2>Contestant {index+1}</h2>
                                         <label for="contestantName">Contestant Name:</label>
                                         <input type="text" class="contestant-name" name="contestantName" onChange={e => handleChange(index, e)} required/>
 
