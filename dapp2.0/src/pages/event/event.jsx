@@ -129,12 +129,6 @@ export default function Event() {
                 <h1>Event Details</h1>
             </header>
 
-            <button onClick={() =>
-                console.log(winnerList)
-            }>
-                click me
-            </button>
-
             <main>
                 <section className="event-details">
                     <section className="event-card">
